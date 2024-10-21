@@ -14,5 +14,13 @@ with the actual name of your content image.
 -  Replace the following line of code:
   ```python
   style_image = np.array(Image.open("cathedral_style.jpg").resize((img_size, img_size)))
-  with the actual name of your style image.```
+with the actual name of your style image.
 
+### Colab Runtime Requirements
+- Make sure to use a GPU runtime in Colab. This will not work on CPU.
+- Even with a basic Colab account, you get some free GPU runtime.
+
+To switch to a GPU runtime:
+
+1. Click Runtime > Change runtime type.
+2. Select T4 GPU from the dropdown menu.
