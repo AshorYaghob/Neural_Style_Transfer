@@ -7,6 +7,7 @@ If you want to try out the code, follow these steps by uploading **two images** 
 - Replace the following line of code:
   ```python
   content_image = np.array(Image.open("bird2.jpg").resize((img_size, img_size)))
+  ```
 with the actual name of your content image.
 
 ### 2. **Style Image**
@@ -14,6 +15,7 @@ with the actual name of your content image.
 -  Replace the following line of code:
   ```python
   style_image = np.array(Image.open("cathedral_style.jpg").resize((img_size, img_size)))
+```
 with the actual name of your style image.
 
 ### Colab Runtime Requirements
